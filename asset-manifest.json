@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/getpricecriptos/static/css/main.ded2d2fa.chunk.css",
+    "main.js": "/getpricecriptos/static/js/main.55097af1.chunk.js",
+    "main.js.map": "/getpricecriptos/static/js/main.55097af1.chunk.js.map",
+    "runtime-main.js": "/getpricecriptos/static/js/runtime-main.8470c1bc.js",
+    "runtime-main.js.map": "/getpricecriptos/static/js/runtime-main.8470c1bc.js.map",
+    "static/js/2.8d241a67.chunk.js": "/getpricecriptos/static/js/2.8d241a67.chunk.js",
+    "static/js/2.8d241a67.chunk.js.map": "/getpricecriptos/static/js/2.8d241a67.chunk.js.map",
+    "static/js/3.09ea5070.chunk.js": "/getpricecriptos/static/js/3.09ea5070.chunk.js",
+    "static/js/3.09ea5070.chunk.js.map": "/getpricecriptos/static/js/3.09ea5070.chunk.js.map",
+    "index.html": "/getpricecriptos/index.html",
+    "static/css/main.ded2d2fa.chunk.css.map": "/getpricecriptos/static/css/main.ded2d2fa.chunk.css.map",
+    "static/js/2.8d241a67.chunk.js.LICENSE.txt": "/getpricecriptos/static/js/2.8d241a67.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8470c1bc.js",
+    "static/js/2.8d241a67.chunk.js",
+    "static/css/main.ded2d2fa.chunk.css",
+    "static/js/main.55097af1.chunk.js"
+  ]
+}

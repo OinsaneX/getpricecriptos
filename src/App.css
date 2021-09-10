@@ -1,38 +1,90 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Dancing+Script:wght@600&display=swap');
+
+html,body{
+  font-family: 'Allison', cursive;
+  font-family: 'Dancing Script', cursive;
+}
+main{
+  display:grid;
+  place-content: center;
+  place-items: center;
+}
+.red{
+color:red
+}
+.green{
+  color:green
+}
+
+
+table, th,tr {
+  border-bottom: 1px solid #fff;
+  border-collapse: collapse;
+}
+thead{
+  border-bottom:1px solid #fff
+}
+section{
+  width: 98vw;
+  max-height: 90vh;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+section::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+section {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+body{
+  overflow-x: hidden;
+}
+header{
   text-align: center;
+  background-color: #000;
+  color: #fff;
+  width: 100vw;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0,1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h4{
+  text-align:center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.w-200{
+width:200px;
+}
+table{
+  border-radius: 4px;
+  padding: 10px;
+  background-color:#000;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+input{
+  margin-bottom:10px;
+  border-radius: 5px;
+}
+
+.flex{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  align-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.m-0{
+margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.shadow{
+  text-shadow: 0px 0px 10px rgba(0, 0, 0,1);
+
 }
